@@ -104,9 +104,7 @@ input = [
 ]
 
 def calculate_fuel(mass):
-    fuel = math.floor(mass / 3) - 2
-
-    return fuel
+    return math.floor(mass / 3) - 2
 
 def part_1():
     total_sum = 0

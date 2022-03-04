@@ -39,10 +39,9 @@ def loopy(input):
 
 def replace_vals(input):
 
-    i = 0
     j = 0
-    while i < 100:
-        for j in range(0,100):
+    for i in range(100):
+        for j in range(100):
             this_input = list(input)
             this_input[1] = i
             this_input[2] = j
@@ -54,7 +53,6 @@ def replace_vals(input):
                 print(this_input)
                 print(100*i+j)
                 break
-        i += 1
 
 
 print(replace_vals(real_input))
